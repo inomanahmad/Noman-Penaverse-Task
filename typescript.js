@@ -1,17 +1,4 @@
 "use strict";
-/*console.log("hello world");
-
-let a = 2;
-let b = 3;
-let c = 5;
-
-function average(u,f){
-   
- let result = u+f
- return console.log(result,"Done")
-}
-
-average(5,6) */
 Object.defineProperty(exports, "__esModule", { value: true });
 // Q4
 var num = 49;
@@ -53,6 +40,16 @@ function CheckNumber(number) {
         console.log("Number is Zero");
     }
 }
+var Number = 3;
+var result = CheckNumber(Number);
+console.log("The number ".concat(Number, " is ").concat(result, "."));
+//Q2
+function CubeVolume(Length) {
+    return Math.pow(Length, 3);
+}
+var Length = 5;
+var Volume = CubeVolume(Length);
+console.log("The volume of the cube with length ".concat(Length, " is: ").concat(Volume));
 //Q6
 var mathresult = ((10 + 5) * 3 - 2) / (4 % 3) - 7;
 console.log("The result of the expression is: ".concat(mathresult));
