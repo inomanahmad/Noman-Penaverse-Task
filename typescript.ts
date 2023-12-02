@@ -1,17 +1,3 @@
-/*console.log("hello world");
-
-let a = 2;
-let b = 3;
-let c = 5;
-
-function average(u,f){
-   
- let result = u+f
- return console.log(result,"Done")
-}
-
-average(5,6) */
-
 // Q4
 let num = 49;
 if (num % 3 == 0){
@@ -58,6 +44,18 @@ function CheckNumber(number){
         console.log("Number is Zero");
     }
 }
+let Number = 3;
+let result = CheckNumber(Number);
+console.log(`The number ${Number} is ${result}.`);
+
+//Q2
+
+function CubeVolume(Length){
+    return Length ** 3;
+}
+let Length = 5;
+let Volume = CubeVolume(Length);
+console.log(`The volume of the cube with length ${Length} is: ${Volume}`);
 
 //Q6
 
