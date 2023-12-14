@@ -1,0 +1,35 @@
+// Assignment Week 6
+
+//Q1
+
+function ctf(celsius) {
+    return (celsius * 9/5) + 32;
+}
+function ftc(fahrenheit) {
+    return (fahrenheit - 32) * 5/9;
+}
+let celsiusTemperature = 34;
+let fahrenheitTemperature = 145;
+console.log(`${celsiusTemperature}°C is equal to ${ctf(celsiusTemperature)}°F`);
+console.log(`${fahrenheitTemperature}°F is equal to ${ftc(fahrenheitTemperature)}°C`);
+
+//Q2
+
+function Percentagecalculator(value, total) {
+    return (value / total) * 100;
+}
+let obtainedMarks = 39;
+let totalMarks = 100;
+let percentage = Percentagecalculator(obtainedMarks, totalMarks);
+console.log(`You scored ${obtainedMarks} out of ${totalMarks} which is ${percentage}%`);
+
+//Q3
+
+function daysconverting(days) {
+    const weeks = days / 7 | 0;
+    const remainingDays = days % 7;
+    return `${weeks} weeks and ${remainingDays} days`;
+}
+let numberOfDays = 7;
+let Result = daysconverting(numberOfDays);
+console.log(`${numberOfDays} days = ${result}`);
