@@ -53,3 +53,46 @@ console.log("The volume of the cube with length ".concat(Length, " is: ").concat
 //Q6
 var mathresult = ((10 + 5) * 3 - 2) / (4 % 3) - 7;
 console.log("The result of the expression is: ".concat(mathresult));
+// Assignment Week 6
+//Q1
+function ctf(celsius) {
+    return (celsius * 9 / 5) + 32;
+}
+function ftc(fahrenheit) {
+    return (fahrenheit - 32) * 5 / 9;
+}
+var celsiusTemperature = 34;
+var fahrenheitTemperature = 145;
+console.log("".concat(celsiusTemperature, "\u00B0C is equal to ").concat(ctf(celsiusTemperature), "\u00B0F"));
+console.log("".concat(fahrenheitTemperature, "\u00B0F is equal to ").concat(ftc(fahrenheitTemperature), "\u00B0C"));
+//Q2
+function Percentagecalculator(value, total) {
+    return (value / total) * 100;
+}
+var obtainedMarks = 39;
+var totalMarks = 100;
+var percentage = Percentagecalculator(obtainedMarks, totalMarks);
+console.log("You scored ".concat(obtainedMarks, " out of ").concat(totalMarks, " which is ").concat(percentage, "%"));
+//Q3
+function daysconverting(days) {
+    var weeks = days / 7 | 0;
+    var remainingDays = days % 7;
+    return "".concat(weeks, " weeks and ").concat(remainingDays, " days");
+}
+var numberOfDays = 7;
+var Result = daysconverting(numberOfDays);
+console.log("".concat(numberOfDays, " days = ").concat(result));
+function daysToWeeksAndDays(days) {
+    // Calculate the number of weeks
+    var weeks = Math.floor(days / 7);
+    // Calculate the remaining days
+    var remainingDays = days % 7;
+    // Format the output string
+    var output = "".concat(weeks, " weeks and ").concat(remainingDays, " days");
+    // Return the formatted string
+    return output;
+}
+// Example usage
+var NumberOfDays = 5;
+var result1 = daysToWeeksAndDays(NumberOfDays);
+console.log("".concat(NumberOfDays, " days is equal to ").concat(result));
