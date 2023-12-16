@@ -111,3 +111,53 @@ function AgeCategory(age) {
 var userAge = prompt("Please enter your age:");
 var ageCategory = AgeCategory(userAge);
 console.log("You are a ".concat(ageCategory, "."));
+//Q6
+function suggestClothing(temperature) {
+    if (temperature < 0) {
+        console.log("It's freezing!  Wear a heavy winter coat, gloves, scarf, and hat!");
+    }
+    else if (temperature < 10) {
+        console.log("It's chilly!  Wear a warm jacket, sweater, and long pants.");
+    }
+    else if (temperature < 20) {
+        console.log("It's cool! Wear a light jacket or long-sleeved shirt.");
+    }
+    else if (temperature < 30) {
+        console.log("It's pleasant! Wear a t-shirt and shorts or a light dress.");
+    }
+    else {
+        console.log("It's hot!  Wear cool, breathable clothing like a tank top and shorts.");
+    }
+}
+var currentTemperature = prompt("Enter the current temperature:");
+var clothingSuggestion = suggestClothing(currentTemperature);
+console.log("Clothing suggestion for ".concat(currentTemperature, "\u00B0C: ").concat(clothingSuggestion));
+//Q7
+function checkDivisibility(number) {
+    var divisibleBy3 = number % 3 === 0;
+    var divisibleBy5 = number % 5 === 0;
+    var divisibleByBoth = divisibleBy3 && divisibleBy5;
+    var message;
+    if (divisibleByBoth) {
+        message = "".concat(number, " is divisible by both 3 and 5.");
+    }
+    else if (divisibleBy3) {
+        message = "".concat(number, " is divisible by 3.");
+    }
+    else if (divisibleBy5) {
+        message = "".concat(number, " is divisible by 5.");
+    }
+    else {
+        message = "".concat(number, " is not divisible by 3 or 5.");
+    }
+    console.log(message);
+}
+/*const testNumber1 = 15;
+const testNumber2 = 12;
+const testNumber3 = 10;
+const testNumber4 = 7;
+
+checkDivisibility(testNumber1);
+checkDivisibility(testNumber2);
+checkDivisibility(testNumber3);
+checkDivisibility(testNumber4);*/
