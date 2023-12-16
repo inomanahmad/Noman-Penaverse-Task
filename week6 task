@@ -32,4 +32,19 @@ function daysconverting(days) {
 }
 let numberOfDays = 7;
 let Result = daysconverting(numberOfDays);
-console.log(`${numberOfDays} days = ${result}`);
+console.log(`${numberOfDays} days = ${Result}`);
+
+//Q4
+
+function DiscountCalculator(price) {
+    if (price > 100) {
+        return price * 0.1;
+    } else {
+        return price * 0.05;
+    }
+}
+const productPrice = 194;
+const discountResult = DiscountCalculator(productPrice);
+console.log(`Product price: ${productPrice}`);
+console.log(`Discount amount: ${discountResult.discount}`);
+console.log(`Final price: ${discountResult.finalPrice}`);

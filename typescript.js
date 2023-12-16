@@ -82,17 +82,32 @@ function daysconverting(days) {
 var numberOfDays = 7;
 var Result = daysconverting(numberOfDays);
 console.log("".concat(numberOfDays, " days = ").concat(result));
-function daysToWeeksAndDays(days) {
-    // Calculate the number of weeks
-    var weeks = Math.floor(days / 7);
-    // Calculate the remaining days
-    var remainingDays = days % 7;
-    // Format the output string
-    var output = "".concat(weeks, " weeks and ").concat(remainingDays, " days");
-    // Return the formatted string
-    return output;
+//Q4
+function DiscountCalculator(price) {
+    if (price > 100) {
+        return price * 0.1;
+    }
+    else {
+        return price * 0.05;
+    }
 }
-// Example usage
-var NumberOfDays = 5;
-var result1 = daysToWeeksAndDays(NumberOfDays);
-console.log("".concat(NumberOfDays, " days is equal to ").concat(result));
+var productPrice = 194;
+var discountAmount = DiscountCalculator(productPrice);
+console.log("The product price is $".concat(productPrice));
+console.log("The discount amount is $".concat(discountAmount));
+console.log("The discounted price is $".concat((productPrice - discountAmount)));
+// Q5
+function AgeCategory(age) {
+    if (age <= 12) {
+        return "Child";
+    }
+    else if (age <= 19) {
+        return "Teenager";
+    }
+    else {
+        return "Adult";
+    }
+}
+var userAge = prompt("Please enter your age:");
+var ageCategory = AgeCategory(userAge);
+console.log("You are a ".concat(ageCategory, "."));

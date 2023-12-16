@@ -99,3 +99,70 @@ function daysconverting(days) {
 let numberOfDays = 7;
 let Result = daysconverting(numberOfDays);
 console.log(`${numberOfDays} days = ${result}`);
+
+//Q4
+
+function DiscountCalculator(price) {
+    if (price > 100) {
+        return price * 0.1;
+    } else {
+        return price * 0.05;
+    }
+}
+let productPrice = 194;
+let discountAmount = DiscountCalculator(productPrice);
+console.log(`The product price is $${productPrice}`);
+console.log(`The discount amount is $${discountAmount}`);
+console.log(`The discounted price is $${(productPrice - discountAmount)}`);
+
+// Q5
+function AgeCategory(age) {
+    if (age <= 12) {
+        return "Child";
+    } else if (age <= 19) {
+        return "Teenager";
+    } else {
+        return "Adult";
+    }
+}
+let userAge = prompt("Please enter your age:");
+let ageCategory = AgeCategory(userAge);
+console.log(`You are a ${ageCategory}.`);
+
+//Q6
+
+function suggestClothing(temperature) {
+    if (temperature < 0) {
+      console.log("It's freezing!  Wear a heavy winter coat, gloves, scarf, and hat!");
+    } else if (temperature < 10) {
+      console.log("It's chilly!  Wear a warm jacket, sweater, and long pants.");
+    } else if (temperature < 20) {
+      console.log("It's cool! Wear a light jacket or long-sleeved shirt.");
+    } else if (temperature < 30) {
+      console.log("It's pleasant! Wear a t-shirt and shorts or a light dress.");
+    } else {
+      console.log("It's hot!  Wear cool, breathable clothing like a tank top and shorts.");
+    }
+  }
+  let currentTemperature = prompt("Enter the current temperature:" );
+  let clothingSuggestion = suggestClothing(currentTemperature);
+  console.log(`Clothing suggestion for ${currentTemperature}°C: ${clothingSuggestion}`);
+
+  //Q7
+
+  function checkDivisibility(number) {
+    let divisibleBy3 = number % 3 === 0;
+    let divisibleBy5 = number % 5 === 0;
+    let divisibleByBoth = divisibleBy3 && divisibleBy5;
+    let message;
+    if (divisibleByBoth) {
+      message = `${number} is divisible by both 3 and 5.`;
+    } else if (divisibleBy3) {
+      message = `${number} is divisible by 3.`;
+    } else if (divisibleBy5) {
+      message = `${number} is divisible by 5.`;
+    } else {
+      message = `${number} is not divisible by 3 or 5.`;
+    }
+    console.log(message);
+  }
