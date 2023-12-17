@@ -108,7 +108,7 @@ function AgeCategory(age) {
         return "Adult";
     }
 }
-var userAge = prompt("Please enter your age:");
+var userAge = ("Please enter your age:");
 var ageCategory = AgeCategory(userAge);
 console.log("You are a ".concat(ageCategory, "."));
 //Q6
@@ -129,7 +129,7 @@ function suggestClothing(temperature) {
         console.log("It's hot!  Wear cool, breathable clothing like a tank top and shorts.");
     }
 }
-var currentTemperature = prompt("Enter the current temperature:");
+var currentTemperature = ("Enter the current temperature:");
 var clothingSuggestion = suggestClothing(currentTemperature);
 console.log("Clothing suggestion for ".concat(currentTemperature, "\u00B0C: ").concat(clothingSuggestion));
 //Q7
@@ -152,12 +152,3 @@ function checkDivisibility(number) {
     }
     console.log(message);
 }
-/*const testNumber1 = 15;
-const testNumber2 = 12;
-const testNumber3 = 10;
-const testNumber4 = 7;
-
-checkDivisibility(testNumber1);
-checkDivisibility(testNumber2);
-checkDivisibility(testNumber3);
-checkDivisibility(testNumber4);*/

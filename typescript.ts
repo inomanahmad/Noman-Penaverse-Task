@@ -61,7 +61,7 @@ console.log(`The volume of the cube with length ${Length} is: ${Volume}`);
 
 let mathresult = ((10 + 5) * 3 - 2) / (4 % 3)  - 7;
 console.log(`The result of the expression is: ${mathresult}`)
-export {};
+
 
 
 // Assignment Week 6
@@ -125,7 +125,7 @@ function AgeCategory(age) {
         return "Adult";
     }
 }
-let userAge = prompt("Please enter your age:");
+let userAge = ("Please enter your age:");
 let ageCategory = AgeCategory(userAge);
 console.log(`You are a ${ageCategory}.`);
 
@@ -144,7 +144,7 @@ function suggestClothing(temperature) {
       console.log("It's hot!  Wear cool, breathable clothing like a tank top and shorts.");
     }
   }
-  let currentTemperature = prompt("Enter the current temperature:" );
+  let currentTemperature = ("Enter the current temperature:" );
   let clothingSuggestion = suggestClothing(currentTemperature);
   console.log(`Clothing suggestion for ${currentTemperature}°C: ${clothingSuggestion}`);
 
@@ -166,3 +166,4 @@ function suggestClothing(temperature) {
     }
     console.log(message);
   }
+  export {};
