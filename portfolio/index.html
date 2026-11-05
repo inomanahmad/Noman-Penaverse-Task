@@ -1,0 +1,791 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Noman Ahmad | Business Development Manager</title>
+  <meta name="description" content="Noman Ahmad, Business Development Manager. I help B2B companies open new markets, build strategic partnerships and turn pipeline into predictable revenue." />
+  <meta name="theme-color" content="#08090c" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Noman Ahmad | Business Development Manager" />
+  <meta property="og:description" content="Opening new markets, building strategic partnerships and turning pipeline into predictable revenue." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <script>
+    /* Animations only switch on when JavaScript runs. If js/main.js fails to
+       load, the flag is removed again so every section stays visible. */
+    document.documentElement.classList.add("js");
+    setTimeout(function () {
+      if (!window.__portfolioReady) document.documentElement.classList.remove("js");
+    }, 4000);
+  </script>
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ Intro loader ============ -->
+  <div class="preloader" aria-hidden="true">
+    <div class="preloader__inner">
+      <p class="preloader__name">
+        <span class="preloader__word"><span style="--i:0">Noman</span></span>
+        <span class="preloader__word"><span class="serif" style="--i:1">Ahmad</span></span>
+      </p>
+      <div class="preloader__meta">
+        <span>Business Development</span>
+        <span><span class="preloader__count">0</span>%</span>
+      </div>
+      <span class="preloader__bar"><span></span></span>
+    </div>
+  </div>
+
+  <!-- ============ Global decoration ============ -->
+  <div class="cursor is-hidden" aria-hidden="true">
+    <div class="cursor__ring"><span class="cursor__label"></span></div>
+    <div class="cursor__dot"></div>
+  </div>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+  <div class="backdrop" aria-hidden="true">
+    <span class="backdrop__blob backdrop__blob--a"></span>
+    <span class="backdrop__blob backdrop__blob--b"></span>
+    <span class="backdrop__grid"></span>
+    <span class="backdrop__grain"></span>
+  </div>
+
+  <!-- ============ Navigation ============ -->
+  <header class="nav" data-nav>
+    <div class="nav__inner">
+      <a class="nav__brand" href="#top" aria-label="Noman Ahmad, back to top">
+        <span class="nav__mark" aria-hidden="true">NA</span>
+        <span class="nav__name">Noman Ahmad</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <span class="nav__indicator" aria-hidden="true"></span>
+        <a href="#about">About</a>
+        <a href="#impact">Impact</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#process">Process</a>
+        <a href="#experience">Experience</a>
+        <a href="#work">Wins</a>
+      </nav>
+      <a class="btn btn--primary btn--sm nav__cta" href="#contact" data-magnetic>
+        <span class="btn__label"><span>Let's talk</span></span>
+      </a>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="menu" id="menu" inert>
+    <nav class="menu__nav" aria-label="Mobile">
+      <a href="#about" style="--i:0"><span>01</span>About</a>
+      <a href="#impact" style="--i:1"><span>02</span>Impact</a>
+      <a href="#expertise" style="--i:2"><span>03</span>Expertise</a>
+      <a href="#process" style="--i:3"><span>04</span>Process</a>
+      <a href="#experience" style="--i:4"><span>05</span>Experience</a>
+      <a href="#work" style="--i:5"><span>06</span>Wins</a>
+      <a href="#contact" style="--i:6"><span>07</span>Contact</a>
+    </nav>
+    <div class="menu__foot">
+      <!-- EDIT: your email + LinkedIn -->
+      <a href="mailto:hello@example.com">hello@example.com</a>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <!-- ============ Hero ============ -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <canvas class="hero__canvas" aria-hidden="true"></canvas>
+
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="hero__status" data-hero style="--d:0">
+            <span class="hero__pulse" aria-hidden="true"></span>
+            Available for new opportunities
+          </p>
+
+          <h1 class="hero__title" id="hero-title">
+            <span class="hero__line"><span data-hero style="--d:80">I turn</span></span>
+            <span class="hero__line">
+              <span data-hero style="--d:170">
+                <span class="rotator" aria-hidden="true">
+                  <span class="rotator__word is-active">handshakes</span>
+                  <span class="rotator__word">cold leads</span>
+                  <span class="rotator__word">new markets</span>
+                  <span class="rotator__word">partnerships</span>
+                </span>
+                <span class="sr-only">handshakes, leads, markets and partnerships</span>
+              </span>
+            </span>
+            <span class="hero__line"><span data-hero style="--d:260">into <em class="serif accent">revenue.</em></span></span>
+          </h1>
+
+          <p class="hero__lead" data-hero style="--d:400">
+            <strong>Business Development Manager</strong> helping B2B companies open new markets,
+            build strategic partnerships and grow a pipeline that closes.
+          </p>
+
+          <div class="hero__actions" data-hero style="--d:500">
+            <a class="btn btn--primary" href="#contact" data-magnetic>
+              <span class="btn__label"><span>Let's work together</span></span>
+              <span class="btn__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </span>
+            </a>
+            <a class="btn btn--ghost" href="#work" data-magnetic>
+              <span class="btn__label"><span>See my track record</span></span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Decorative "deal room" dashboard -->
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__stage">
+            <span class="hero__glow"></span>
+            <span class="hero__orbit hero__orbit--1"><i></i></span>
+            <span class="hero__orbit hero__orbit--2"><i></i></span>
+
+            <div class="hcard hcard--chart" data-depth="0.7" style="--d:560">
+              <div class="hcard__in">
+                <div class="hcard__row">
+                  <span class="hcard__label">Revenue influenced</span>
+                  <span class="hcard__chip">
+                    <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg>
+                    6.2×
+                  </span>
+                </div>
+                <p class="hcard__value">$3.1M <span>in 2025</span></p>
+                <svg class="spark" viewBox="0 0 300 110">
+                  <defs>
+                    <linearGradient id="sparkFill" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0" stop-color="#65a30d" stop-opacity=".32" />
+                      <stop offset="1" stop-color="#65a30d" stop-opacity="0" />
+                    </linearGradient>
+                  </defs>
+                  <g class="spark__grid">
+                    <line x1="0" x2="300" y1="16" y2="16" />
+                    <line x1="0" x2="300" y1="56" y2="56" />
+                    <line x1="0" x2="300" y1="96" y2="96" />
+                  </g>
+                  <path class="spark__area" fill="url(#sparkFill)" d="M8 83.1C23.3 80.5 38.7 78.4 54 75.4C69.3 72.3 84.7 68.9 100 65C115.3 61.2 130.7 56.9 146 52.1C161.3 47.4 176.7 40.5 192 36.6C207.3 32.8 222.7 32.3 238 28.9C253.3 25.5 268.7 20.3 284 16L284 96L8 96Z" />
+                  <path class="spark__line" pathLength="1" d="M8 83.1C23.3 80.5 38.7 78.4 54 75.4C69.3 72.3 84.7 68.9 100 65C115.3 61.2 130.7 56.9 146 52.1C161.3 47.4 176.7 40.5 192 36.6C207.3 32.8 222.7 32.3 238 28.9C253.3 25.5 268.7 20.3 284 16" />
+                  <circle class="spark__dot" cx="284" cy="16" r="5" />
+                </svg>
+                <div class="hcard__axis"><span>2019</span><span>2022</span><span>2025</span></div>
+              </div>
+            </div>
+
+            <div class="hcard hcard--pipeline" data-depth="1.3" style="--d:680">
+              <div class="hcard__in">
+                <span class="hcard__label">Pipeline built</span>
+                <p class="hcard__value">$8.4M</p>
+                <div class="hbars">
+                  <span style="--h:.30;--i:0"></span>
+                  <span style="--h:.42;--i:1"></span>
+                  <span style="--h:.38;--i:2"></span>
+                  <span style="--h:.55;--i:3"></span>
+                  <span style="--h:.64;--i:4"></span>
+                  <span style="--h:.78;--i:5"></span>
+                  <span class="is-current" style="--h:1;--i:6"></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hcard hcard--meter" data-depth="1.7" style="--d:800">
+              <div class="hcard__in">
+                <svg class="meter" viewBox="0 0 64 64">
+                  <circle class="meter__track" cx="32" cy="32" r="26" pathLength="100" />
+                  <circle class="meter__fill" cx="32" cy="32" r="26" pathLength="100" />
+                </svg>
+                <div>
+                  <span class="hcard__label">Win rate</span>
+                  <p class="hcard__value">41%</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="hcard hcard--toast" data-depth="2.1" style="--d:920">
+              <div class="hcard__in toast" data-toast>
+                <span class="toast__icon">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                </span>
+                <span class="toast__body">
+                  <strong class="toast__title">Deal closed · $240K</strong>
+                  <span class="toast__meta">Enterprise SaaS · just now</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a class="hero__scroll" href="#about">
+        <span class="hero__scroll-line" aria-hidden="true"></span>
+        <span>Scroll</span>
+      </a>
+    </section>
+
+    <!-- ============ Marquee ============ -->
+    <section class="marquee" aria-label="Industries and capabilities">
+      <div class="marquee__row marquee__row--a" data-marquee="-1">
+        <div class="marquee__track">
+          <ul class="marquee__list">
+            <li>SaaS</li>
+            <li>FinTech</li>
+            <li>Logistics</li>
+            <li>E-commerce</li>
+            <li>HealthTech</li>
+            <li>EdTech</li>
+            <li>Real estate</li>
+            <li>Manufacturing</li>
+          </ul>
+        </div>
+      </div>
+      <div class="marquee__row marquee__row--b" data-marquee="1">
+        <div class="marquee__track">
+          <ul class="marquee__list">
+            <li>Strategic partnerships</li>
+            <li>Lead generation</li>
+            <li>Negotiation</li>
+            <li>Market expansion</li>
+            <li>Account growth</li>
+            <li>Sales strategy</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 01 About ============ -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-reveal><span class="eyebrow__num">01</span><span class="eyebrow__line"></span>About me</p>
+          <h2 class="section-title" id="about-title" data-split>Relationships first. <em class="serif accent">Revenue</em> follows.</h2>
+        </div>
+
+        <div class="about__grid">
+          <div class="about__media" data-reveal>
+            <div class="portrait" data-tilt="6">
+              <div class="portrait__frame">
+                <!-- EDIT: add your photo, e.g.
+                     <img class="portrait__img" src="images/portrait.jpg" alt="Portrait of Noman Ahmad" />
+                     and delete the placeholder div below. -->
+                <div class="portrait__placeholder" aria-hidden="true">
+                  <span class="portrait__mono">N<em>A</em></span>
+                </div>
+              </div>
+              <div class="portrait__badge" data-parallax="-0.08">
+                <strong>7+</strong>
+                <span>years growing<br />B2B revenue</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about__body">
+            <p class="about__lead" data-scrub>
+              I'm Noman, a business development manager who believes the best deals are built on trust,
+              sharp insight and relentless follow-through. I find the markets worth entering, open doors
+              with decision-makers and build partnerships that keep paying off long after the contract is signed.
+            </p>
+
+            <dl class="facts" data-stagger>
+              <div class="fact"><dt>Focus</dt><dd>Partnerships &amp; new markets</dd></div>
+              <div class="fact"><dt>Industries</dt><dd>SaaS · FinTech · Logistics</dd></div>
+              <div class="fact"><dt>Experience</dt><dd>7+ years in B2B sales</dd></div>
+              <div class="fact"><dt>Work style</dt><dd>Remote · Hybrid · On-site</dd></div>
+            </dl>
+
+            <div class="toolkit" data-reveal>
+              <p class="toolkit__title">Toolkit</p>
+              <ul class="chips">
+                <li>Salesforce</li>
+                <li>HubSpot</li>
+                <li>LinkedIn Sales Navigator</li>
+                <li>Apollo.io</li>
+                <li>Pipedrive</li>
+                <li>Power BI</li>
+                <li>Notion</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 02 Impact ============ -->
+    <section class="section impact" id="impact" aria-labelledby="impact-title">
+      <div class="container">
+        <div class="section-head section-head--split">
+          <div>
+            <p class="eyebrow" data-reveal><span class="eyebrow__num">02</span><span class="eyebrow__line"></span>Impact</p>
+            <h2 class="section-title" id="impact-title" data-split>Numbers that <em class="serif accent">speak</em> for themselves.</h2>
+          </div>
+          <p class="section-lead" data-reveal>
+            Every relationship I build is measured against one question: did it move the business forward?
+          </p>
+        </div>
+
+        <div class="impact__grid">
+          <!-- EDIT: replace these figures with your own results -->
+          <div class="kpis" data-stagger>
+            <article class="kpi">
+              <p class="kpi__label">Revenue influenced</p>
+              <p class="kpi__value"><span class="sr-only">$12M+</span><span data-count="12" data-prefix="$" data-suffix="M+" aria-hidden="true">$12M+</span></p>
+              <p class="kpi__note">Closed-won and partner-sourced deals since 2019</p>
+            </article>
+            <article class="kpi">
+              <p class="kpi__label">Partnerships signed</p>
+              <p class="kpi__value"><span class="sr-only">45+</span><span data-count="45" data-suffix="+" aria-hidden="true">45+</span></p>
+              <p class="kpi__note">Resellers, alliances and channel partners</p>
+            </article>
+            <article class="kpi">
+              <p class="kpi__label">Average quota attainment</p>
+              <p class="kpi__value"><span class="sr-only">132%</span><span data-count="132" data-suffix="%" aria-hidden="true">132%</span></p>
+              <p class="kpi__note">Three consecutive years above target</p>
+            </article>
+            <article class="kpi">
+              <p class="kpi__label">New markets opened</p>
+              <p class="kpi__value"><span class="sr-only">6</span><span data-count="6" aria-hidden="true">6</span></p>
+              <p class="kpi__note">Across three continents</p>
+            </article>
+          </div>
+
+          <figure class="chart-card" data-chart data-prefix="$" data-suffix="M" data-reveal>
+            <figcaption class="chart-card__head">
+              <span>
+                <span class="chart-card__title">Revenue influenced per year</span>
+                <span class="chart-card__sub">USD millions, 2019 to 2025</span>
+              </span>
+              <span class="chart-card__delta">6.2×<span>growth since 2019</span></span>
+            </figcaption>
+
+            <div class="chart" tabindex="0" aria-label="Revenue chart. Use the left and right arrow keys to read each year.">
+              <div class="chart__tooltip" aria-hidden="true">
+                <strong></strong>
+                <span><i class="chart__key"></i><span class="chart__tip-label"></span></span>
+              </div>
+            </div>
+            <p class="sr-only chart__live" aria-live="polite"></p>
+
+            <!-- EDIT: the chart is drawn from this table. Change the rows to update it. -->
+            <div class="chart-data">
+              <table class="chart-table">
+                <caption>Revenue influenced per year, USD millions</caption>
+                <thead><tr><th scope="col">Year</th><th scope="col">Revenue (USD M)</th></tr></thead>
+                <tbody>
+                  <tr><th scope="row">2019</th><td>0.5</td></tr>
+                  <tr><th scope="row">2020</th><td>0.8</td></tr>
+                  <tr><th scope="row">2021</th><td>1.2</td></tr>
+                  <tr><th scope="row">2022</th><td>1.7</td></tr>
+                  <tr><th scope="row">2023</th><td>2.3</td></tr>
+                  <tr><th scope="row">2024</th><td>2.6</td></tr>
+                  <tr><th scope="row">2025</th><td>3.1</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 03 Expertise ============ -->
+    <section class="section expertise" id="expertise" aria-labelledby="expertise-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-reveal><span class="eyebrow__num">03</span><span class="eyebrow__line"></span>Expertise</p>
+          <h2 class="section-title" id="expertise-title" data-split>What I bring to <em class="serif accent">the table.</em></h2>
+        </div>
+
+        <div class="cards" data-stagger>
+          <article class="card">
+            <div class="card__body" data-tilt>
+              <span class="card__num">01</span>
+              <span class="card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="12" r="6" pathLength="1"/><circle cx="15" cy="12" r="6" pathLength="1"/></svg>
+              </span>
+              <h3 class="card__title">Strategic partnerships</h3>
+              <p class="card__text">I identify, pitch and launch alliances, reseller and co-selling programs that open new revenue channels.</p>
+              <ul class="card__tags"><li>Alliances</li><li>Channel</li><li>Co-selling</li></ul>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__body" data-tilt>
+              <span class="card__num">02</span>
+              <span class="card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9" pathLength="1"/><path d="M3 12h18" pathLength="1"/><path d="M12 3a14 14 0 0 1 0 18" pathLength="1"/><path d="M12 3a14 14 0 0 0 0 18" pathLength="1"/></svg>
+              </span>
+              <h3 class="card__title">Market expansion</h3>
+              <p class="card__text">From research to first customers: I validate new regions and verticals and build a clear go-to-market plan.</p>
+              <ul class="card__tags"><li>Go-to-market</li><li>Localisation</li><li>Research</li></ul>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__body" data-tilt>
+              <span class="card__num">03</span>
+              <span class="card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h18l-7 8.5V19l-4 2v-8.5z" pathLength="1"/></svg>
+              </span>
+              <h3 class="card__title">Pipeline generation</h3>
+              <p class="card__text">Outbound engines, ICP targeting and qualification frameworks that keep the funnel full of the right deals.</p>
+              <ul class="card__tags"><li>Outbound</li><li>ABM</li><li>Lead scoring</li></ul>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__body" data-tilt>
+              <span class="card__num">04</span>
+              <span class="card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z" pathLength="1"/><path d="M14 3v5h5" pathLength="1"/><path d="M8.5 16.5c1.2-2.2 2.2-2.2 2.8 0s1.6 2.2 3.2 0" pathLength="1"/></svg>
+              </span>
+              <h3 class="card__title">Negotiation &amp; closing</h3>
+              <p class="card__text">Structuring win-win commercial terms and steering complex, multi-stakeholder deals across the finish line.</p>
+              <ul class="card__tags"><li>Enterprise</li><li>Contracts</li><li>Pricing</li></ul>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__body" data-tilt>
+              <span class="card__num">05</span>
+              <span class="card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9" pathLength="1"/><circle cx="12" cy="12" r="5" pathLength="1"/><circle cx="12" cy="12" r="1.2" pathLength="1"/></svg>
+              </span>
+              <h3 class="card__title">Key account growth</h3>
+              <p class="card__text">Turning first deals into long-term accounts through executive relationships, upsell and renewals.</p>
+              <ul class="card__tags"><li>Upsell</li><li>Retention</li><li>QBRs</li></ul>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__body" data-tilt>
+              <span class="card__num">06</span>
+              <span class="card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18" pathLength="1"/><path d="M6 16v-5" pathLength="1"/><path d="M11 16V8" pathLength="1"/><path d="M16 16v-3" pathLength="1"/><path d="m5 8 5-4 4 3 5-4" pathLength="1"/></svg>
+              </span>
+              <h3 class="card__title">Sales strategy &amp; CRM</h3>
+              <p class="card__text">Forecasting, KPIs and clean CRM processes that make revenue predictable and decisions data-driven.</p>
+              <ul class="card__tags"><li>Forecasting</li><li>Salesforce</li><li>HubSpot</li></ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 04 Process (horizontal pipeline) ============ -->
+    <section class="process" id="process" aria-labelledby="process-title">
+      <div class="process__pin">
+        <div class="container process__head">
+          <div>
+            <p class="eyebrow" data-reveal><span class="eyebrow__num">04</span><span class="eyebrow__line"></span>Process</p>
+            <h2 class="section-title" id="process-title" data-split>My deal <em class="serif accent">playbook.</em></h2>
+          </div>
+          <p class="process__hint" data-reveal>
+            Keep scrolling to move the deal through the pipeline
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </p>
+        </div>
+
+        <div class="process__viewport">
+          <div class="process__track">
+            <div class="process__rail" aria-hidden="true">
+              <span class="process__fill"></span>
+              <span class="process__deal">$</span>
+            </div>
+            <ol class="process__stages">
+              <li class="stage" data-reveal>
+                <span class="stage__node" aria-hidden="true"></span>
+                <span class="stage__num" aria-hidden="true">01</span>
+                <h3 class="stage__title">Research</h3>
+                <p class="stage__text">Map the market, size the opportunity and define the ideal customer, so every conversation starts with insight.</p>
+                <ul class="stage__tags"><li>Market sizing</li><li>ICP</li><li>Competitor intel</li></ul>
+              </li>
+              <li class="stage" data-reveal>
+                <span class="stage__node" aria-hidden="true"></span>
+                <span class="stage__num" aria-hidden="true">02</span>
+                <h3 class="stage__title">Connect</h3>
+                <p class="stage__text">Open doors with multi-channel outreach, warm introductions and events. I lead with value to earn the first meeting.</p>
+                <ul class="stage__tags"><li>Outbound</li><li>Referrals</li><li>Events</li></ul>
+              </li>
+              <li class="stage" data-reveal>
+                <span class="stage__node" aria-hidden="true"></span>
+                <span class="stage__num" aria-hidden="true">03</span>
+                <h3 class="stage__title">Qualify</h3>
+                <p class="stage__text">Separate real opportunities from noise with clear criteria: budget, authority, need and timing, plus a map of every stakeholder.</p>
+                <ul class="stage__tags"><li>Discovery</li><li>MEDDICC</li><li>Stakeholders</li></ul>
+              </li>
+              <li class="stage" data-reveal>
+                <span class="stage__node" aria-hidden="true"></span>
+                <span class="stage__num" aria-hidden="true">04</span>
+                <h3 class="stage__title">Propose &amp; negotiate</h3>
+                <p class="stage__text">Build a tailored business case, handle objections and structure terms that work for both sides and protect margin.</p>
+                <ul class="stage__tags"><li>Business case</li><li>Pricing</li><li>Objections</li></ul>
+              </li>
+              <li class="stage" data-reveal>
+                <span class="stage__node" aria-hidden="true"></span>
+                <span class="stage__num" aria-hidden="true">05</span>
+                <h3 class="stage__title">Close &amp; grow</h3>
+                <p class="stage__text">Sign, onboard and nurture. The real value comes after the deal: renewals, upsell and referrals.</p>
+                <ul class="stage__tags"><li>Onboarding</li><li>Expansion</li><li>Advocacy</li></ul>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 05 Experience ============ -->
+    <section class="section experience" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-reveal><span class="eyebrow__num">05</span><span class="eyebrow__line"></span>Experience</p>
+          <h2 class="section-title" id="experience-title" data-split>Where I've made an <em class="serif accent">impact.</em></h2>
+        </div>
+
+        <!-- EDIT: replace with your real roles, companies and achievements -->
+        <div class="timeline">
+          <div class="timeline__line" aria-hidden="true"><span class="timeline__progress"></span></div>
+
+          <article class="role" data-reveal>
+            <div class="role__meta">
+              <span class="role__date">2023 to present</span>
+              <span class="role__place">Remote</span>
+            </div>
+            <span class="role__dot" aria-hidden="true"></span>
+            <div class="role__body">
+              <h3 class="role__title">Business Development Manager</h3>
+              <p class="role__company">B2B SaaS scale-up</p>
+              <ul class="role__wins">
+                <li>Built a partner program from zero to 25 active resellers, now 38% of new revenue.</li>
+                <li>Opened two new regions, adding $1.8M in annual recurring revenue within 14 months.</li>
+                <li>Lead and coach a team of four SDRs; cut the average sales cycle by 27%.</li>
+              </ul>
+              <ul class="role__tags"><li>Partnerships</li><li>Expansion</li><li>Team lead</li></ul>
+            </div>
+          </article>
+
+          <article class="role" data-reveal>
+            <div class="role__meta">
+              <span class="role__date">2021 to 2023</span>
+              <span class="role__place">Hybrid</span>
+            </div>
+            <span class="role__dot" aria-hidden="true"></span>
+            <div class="role__body">
+              <h3 class="role__title">Senior Business Development Executive</h3>
+              <p class="role__company">FinTech company</p>
+              <ul class="role__wins">
+                <li>Closed the company's three largest enterprise contracts to date.</li>
+                <li>Designed the channel program that tripled partner-sourced pipeline year over year.</li>
+                <li>Hit 140% of annual quota two years in a row.</li>
+              </ul>
+              <ul class="role__tags"><li>Enterprise sales</li><li>Channel</li><li>Negotiation</li></ul>
+            </div>
+          </article>
+
+          <article class="role" data-reveal>
+            <div class="role__meta">
+              <span class="role__date">2019 to 2021</span>
+              <span class="role__place">On-site</span>
+            </div>
+            <span class="role__dot" aria-hidden="true"></span>
+            <div class="role__body">
+              <h3 class="role__title">Business Development Executive</h3>
+              <p class="role__company">Digital growth agency</p>
+              <ul class="role__wins">
+                <li>Generated 300+ qualified meetings through outbound and LinkedIn campaigns.</li>
+                <li>Rebuilt the CRM pipeline stages, raising forecast accuracy to 90%.</li>
+                <li>Grew the top ten accounts by 60% through upsell and cross-sell.</li>
+              </ul>
+              <ul class="role__tags"><li>Lead generation</li><li>CRM</li><li>Account growth</li></ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 06 Selected wins (stacking cards) ============ -->
+    <section class="section work" id="work" aria-labelledby="work-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-reveal><span class="eyebrow__num">06</span><span class="eyebrow__line"></span>Selected wins</p>
+          <h2 class="section-title" id="work-title" data-split>Deals &amp; programs I'm <em class="serif accent">proud&nbsp;of.</em></h2>
+        </div>
+
+        <!-- EDIT: replace with your own case studies -->
+        <div class="stack">
+          <article class="case" style="--i:0; --glow: var(--accent)">
+            <div class="case__inner">
+              <div class="case__info" data-stagger>
+                <p class="case__meta"><span class="tag">Market expansion</span><span>SaaS · 2024</span></p>
+                <h3 class="case__title">Launching a SaaS platform in a brand-new region</h3>
+                <dl class="case__steps">
+                  <div><dt>Challenge</dt><dd>No brand awareness and no local network in a relationship-driven market.</dd></div>
+                  <div><dt>Approach</dt><dd>Built a six-partner reseller network, localised the pitch and ran an executive roadshow in two capital cities.</dd></div>
+                </dl>
+              </div>
+              <div class="case__result">
+                <p class="case__label">Result</p>
+                <p class="case__metric"><span class="sr-only">$1.8M</span><span data-count="1.8" data-decimals="1" data-prefix="$" data-suffix="M" aria-hidden="true">$1.8M</span></p>
+                <p class="case__metric-label">new annual recurring revenue in 14 months</p>
+                <ul class="case__sub">
+                  <li><strong>12</strong> enterprise logos</li>
+                  <li><strong>6</strong> reseller partners</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="case" style="--i:1; --glow: var(--violet)">
+            <div class="case__inner">
+              <div class="case__info" data-stagger>
+                <p class="case__meta"><span class="tag">Partnerships</span><span>FinTech · 2022</span></p>
+                <h3 class="case__title">Building a channel partner program from scratch</h3>
+                <dl class="case__steps">
+                  <div><dt>Challenge</dt><dd>Growth was capped by a small direct sales team and long enterprise cycles.</dd></div>
+                  <div><dt>Approach</dt><dd>Designed partner tiers, incentives and enablement, then recruited and onboarded partners in waves.</dd></div>
+                </dl>
+              </div>
+              <div class="case__result">
+                <p class="case__label">Result</p>
+                <p class="case__metric"><span class="sr-only">38%</span><span data-count="38" data-suffix="%" aria-hidden="true">38%</span></p>
+                <p class="case__metric-label">of new revenue now partner-sourced</p>
+                <ul class="case__sub">
+                  <li><strong>25</strong> active partners</li>
+                  <li><strong>3.1×</strong> partner pipeline</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="case" style="--i:2; --glow: var(--teal)">
+            <div class="case__inner">
+              <div class="case__info" data-stagger>
+                <p class="case__meta"><span class="tag">Sales strategy</span><span>Logistics · 2021</span></p>
+                <h3 class="case__title">Turning around a stalled sales pipeline</h3>
+                <dl class="case__steps">
+                  <div><dt>Challenge</dt><dd>Nine-month sales cycles and a leaky funnel with no clear qualification.</dd></div>
+                  <div><dt>Approach</dt><dd>Rebuilt the ICP, introduced MEDDICC qualification and a multi-touch outbound cadence.</dd></div>
+                </dl>
+              </div>
+              <div class="case__result">
+                <p class="case__label">Result</p>
+                <p class="case__metric"><span class="sr-only">3.2×</span><span data-count="3.2" data-decimals="1" data-suffix="×" aria-hidden="true">3.2×</span></p>
+                <p class="case__metric-label">qualified pipeline in two quarters</p>
+                <ul class="case__sub">
+                  <li><strong>−27%</strong> sales cycle</li>
+                  <li><strong>41%</strong> win rate</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 07 Contact ============ -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <span class="contact__glow" aria-hidden="true"></span>
+      <div class="container contact__grid">
+        <div class="contact__intro">
+          <p class="eyebrow" data-reveal><span class="eyebrow__num">07</span><span class="eyebrow__line"></span>Contact</p>
+          <h2 class="contact__title" id="contact-title" data-split>Let's build something that <em class="serif accent">grows.</em></h2>
+          <p class="contact__lead" data-reveal>
+            Hiring a business development lead, exploring a partnership or planning a market entry?
+            I'd love to hear about it.
+          </p>
+
+          <!-- EDIT: your email + LinkedIn -->
+          <ul class="contact__links" data-stagger>
+            <li>
+              <a href="mailto:hello@example.com" data-cursor="Email">
+                <span class="contact__icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></svg></span>
+                <span class="contact__text"><small>Email</small>hello@example.com</span>
+                <svg class="contact__arrow" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener" data-cursor="Connect">
+                <span class="contact__icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M8 11v5M8 8v.01M12 16v-5M16 16v-3a2 2 0 0 0-4 0"/></svg></span>
+                <span class="contact__text"><small>LinkedIn</small>Let's connect</span>
+                <svg class="contact__arrow" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+              </a>
+            </li>
+            <li class="contact__note">
+              <span class="contact__icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+              <span class="contact__text"><small>Response time</small>Usually within 24 hours</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- The form opens the visitor's email app with the message filled in (no server needed).
+             EDIT: set data-email to your address. -->
+        <form class="form" data-contact-form data-email="hello@example.com" novalidate data-reveal>
+          <div class="form__row">
+            <div class="field">
+              <input id="f-name" name="name" type="text" autocomplete="name" placeholder=" " required aria-describedby="f-name-err" />
+              <label for="f-name">Your name</label>
+              <p class="field__error" id="f-name-err">Please tell me your name.</p>
+            </div>
+            <div class="field">
+              <input id="f-email" name="email" type="email" autocomplete="email" placeholder=" " required aria-describedby="f-email-err" />
+              <label for="f-email">Email address</label>
+              <p class="field__error" id="f-email-err">Please enter a valid email address.</p>
+            </div>
+          </div>
+          <div class="field">
+            <input id="f-company" name="company" type="text" autocomplete="organization" placeholder=" " />
+            <label for="f-company">Company (optional)</label>
+          </div>
+
+          <fieldset class="topics">
+            <legend>I'm interested in</legend>
+            <label class="pill"><input type="radio" name="topic" value="Full-time role" checked /><span>Full-time role</span></label>
+            <label class="pill"><input type="radio" name="topic" value="Partnership" /><span>Partnership</span></label>
+            <label class="pill"><input type="radio" name="topic" value="Consulting" /><span>Consulting</span></label>
+            <label class="pill"><input type="radio" name="topic" value="Something else" /><span>Something else</span></label>
+          </fieldset>
+
+          <div class="field">
+            <textarea id="f-message" name="message" rows="4" placeholder=" " required aria-describedby="f-message-err"></textarea>
+            <label for="f-message">Tell me about your goals</label>
+            <p class="field__error" id="f-message-err">A short message helps me prepare.</p>
+          </div>
+
+          <button class="btn btn--primary btn--lg form__submit" type="submit" data-magnetic="0.2">
+            <span class="btn__label"><span>Send message</span></span>
+            <span class="btn__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </span>
+          </button>
+          <p class="form__status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ Footer ============ -->
+  <footer class="footer">
+    <div class="footer__name" aria-hidden="true">Noman Ahmad</div>
+    <div class="container footer__bar">
+      <p>© <span data-year>2026</span> Noman Ahmad. Business Development Manager.</p>
+      <!-- EDIT: your email + LinkedIn -->
+      <ul class="footer__links">
+        <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="mailto:hello@example.com">Email</a></li>
+      </ul>
+      <button class="to-top" type="button" aria-label="Back to top" data-magnetic="0.4">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+      </button>
+    </div>
+  </footer>
+</body>
+</html>
